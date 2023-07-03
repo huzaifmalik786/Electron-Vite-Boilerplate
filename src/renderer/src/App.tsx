@@ -1,5 +1,6 @@
 import Versions from './components/Versions'
 import icons from './assets/icons.svg'
+import React from 'react'
 
 function App() {
   return (
