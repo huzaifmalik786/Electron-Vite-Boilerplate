@@ -1,10 +1,16 @@
 import React from 'react'
-import { KeywordSearch } from './components/disk forensics/KeywordSearch'
+import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
+import { Home } from './pages/Home';
 
 function App() {
   return (
     <div>
-      <KeywordSearch />
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          {/* <Route path="*" element={<div>404</div>} /> */}
+        </Routes>
+      </Router>
     </div>
   )
 }
