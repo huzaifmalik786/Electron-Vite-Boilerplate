@@ -1,11 +1,7 @@
 import React from 'react'
 
 function Versions() {
-  return (
-    <div>
-      Versions
-    </div>
-  )
+  return <div>Versions</div>
 }
 
 export default Versions
